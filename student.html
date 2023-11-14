@@ -1,0 +1,25 @@
+<!-- student.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student-Teacher Appointment System - Student</title>
+    <!-- Include necessary CSS files -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Dashboard</h1>
+        <!-- Register Form -->
+        <form id="registerForm">
+            <label for="studentName">Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+            <!-- Add more registration fields as needed -->
+            <button type="button" onclick="registerStudent()">Register</button>
+        </form>
+    </div>
+    <!-- Include necessary JavaScript files -->
+    <script src="firebase-config.js"></script>
+    <script src="student.js"></script>
+</body>
+</html>

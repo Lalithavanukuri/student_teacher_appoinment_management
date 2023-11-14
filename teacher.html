@@ -1,0 +1,26 @@
+<!-- teacher.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student-Teacher Appointment System - Teacher</title>
+    <!-- Include necessary CSS files -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Teacher Login</h1>
+        <!-- Login Form -->
+        <form id="teacherLoginForm">
+            <label for="teacherUsername">Username:</label>
+            <input type="text" id="teacherUsername" name="teacherUsername" required>
+            <label for="teacherPassword">Password:</label>
+            <input type="password" id="teacherPassword" name="teacherPassword" required>
+            <button type="button" onclick="teacherLogin()">Login</button>
+        </form>
+    </div>
+    <!-- Include necessary JavaScript files -->
+    <script src="firebase-config.js"></script>
+    <script src="teacher.js"></script>
+</body>
+</html>
